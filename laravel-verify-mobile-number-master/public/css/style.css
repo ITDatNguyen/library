@@ -1,0 +1,106 @@
+body {
+  font-family: sans-serif;
+  background: #c9c8cd;
+}
+.container{
+	width: 100%;
+}
+
+/*---------------------------------------------------------------------------------
+   Login Page style starts
+---------------------------------------------------------------------------------*/
+.loginContainer{
+    background-color: #27ae60;
+}
+
+.loginContainer .row{
+    width: 500px;
+    margin: 0px auto;
+    background: #fff;
+    padding: 30px 30px;
+    margin-top:5% 
+}
+
+.loginContainer input,
+.loginContainer button{
+    border-radius:0px; 
+}
+
+.loginContainer button{
+    background: #27ae60;
+    border: solid 0.5px #27ae60;
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    color: #fff;
+}
+
+.loginContainer button:hover{
+    background: #fff;
+    border: solid 0.5px #27ae60;
+    color: #27ae60;
+}
+/*---------------------------------------------------------------------------------
+   Login Page style ends
+---------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------
+   header style starts
+---------------------------------------------------------------------------------*/
+.header{
+    padding: 25px 30px;
+    height: 80px;
+    background-color: #27ae60;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 800;
+    box-shadow: 0px 0px 10px #808080;
+}
+.navigator{
+    list-style-type: none;    
+    display: inline-flex;
+    float: right;
+}
+.navigator li a{
+    margin: 10px;
+    color: #fff;
+}
+/*---------------------------------------------------------------------------------
+   header style ends
+---------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------------
+   Home style starts
+---------------------------------------------------------------------------------*/
+
+.userInfo{
+    padding: 30px 30px;
+    background-color: #fff;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 10px #808080;
+    margin: 50px auto;
+    width: 60%;
+}
+
+.otpSection button{
+    background: #27ae60;
+    border: solid 0.5px #27ae60;
+    padding: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.otpSection button:hover{
+    background: #fff;
+    border: solid 0.5px #27ae60;
+    color: #27ae60;
+}
+
+/*---------------------------------------------------------------------------------
+   Home style ends
+---------------------------------------------------------------------------------*/
+
+
